@@ -36,7 +36,8 @@ function calculate() {
   resultInput.value = "ERROR"
   resultInput.classList.add("error")
   if (input.value === '') {
-    resultInput.classList.add("error")
+    //resultInput.classList.add("error")
+    input.value = textContent = 'Digite um valor'
     console.log('bateu aqui')
   }else{
     const result = eval(input.value)
